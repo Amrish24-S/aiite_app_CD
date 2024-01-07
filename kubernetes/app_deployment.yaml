@@ -15,9 +15,6 @@ spec:
       - name: aiiteapp
         image: amrish24/aiite-app-img:latest
         resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8080
           name: aiiteapp-port
