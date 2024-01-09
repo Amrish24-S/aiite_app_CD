@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: aiiteapp
-        image: amrish24/aiite-app-img:6
+        image: amrish24/aiite-app-img:1
         resources:
         ports:
         - containerPort: 8080
